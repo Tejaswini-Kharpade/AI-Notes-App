@@ -58,7 +58,46 @@ It allows users to create, edit, delete, and search notes — and use <b>AI tool
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
+1️⃣ Clone the Repository
+<div>
+<pre style="font-size: 1.2em;">
 git clone https://github.com/YOUR_USERNAME/ai-notes-app.git
 cd ai-notes-app
+  
+</pre>
+</div>
+
+2️⃣ Install Dependencies
+<div>
+<pre style="font-size: 1.2em;">
+npm install
+# or
+yarn install
+  
+</pre>
+</div>
+
+3️⃣ Create a .env.local File
+
+Add the following environment variables:
+<div>
+<pre style="font-size: 1.2em;">
+DATABASE_URL=your_database_url_here
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+OPENAI_API_KEY=your_openai_api_key
+  
+</pre>
+</div>
+
+
+4️⃣ Run the Development Server
+<div>
+<pre style="font-size: 1.2em;">
+npm run dev
+
+</pre>
+</div>
+
+Your app should now be live at:
+👉 http://localhost:3000
